@@ -5,7 +5,7 @@ import unittest
 import soupstone
 
 
-class Template_TestCase(unittest.TestCase)
+class Template_TestCase(unittest.TestCase):
 
     def setUp(self):
         pass
@@ -13,6 +13,6 @@ class Template_TestCase(unittest.TestCase)
         pass
 
     def test_foo(self):
-        assert false
+        assert False
 
 
